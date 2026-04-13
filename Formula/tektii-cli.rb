@@ -1,25 +1,25 @@
 class TektiiCli < Formula
   desc "Command-line interface for Tektii trading platform"
   homepage "https://tektii.com"
-  version "0.2.2"
+  version "0.2.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://get.tektii.com/download/tektii-cli-v0.2.2/tektii-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "6bba76bf9734cedea9479f6469bc5d728b8e8820c58fa1eb282dd631f5c49d0b"
+      url "https://get.tektii.com/download/tektii-cli-v0.2.3/tektii-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "91507d8a75cc4ba054cfaaf0e49123f4977ee0d24777dbd20752d8777ed54cf5"
     end
     if Hardware::CPU.intel?
-      url "https://get.tektii.com/download/tektii-cli-v0.2.2/tektii-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "7d0385614ce9f3c89242d4e09712167721f6740642f769a4478a5dd2f2afc05e"
+      url "https://get.tektii.com/download/tektii-cli-v0.2.3/tektii-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "d56e28daa66744a618e9f2f76935311d08cacfcf51a0e323c56b1e2eef9e0076"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://get.tektii.com/download/tektii-cli-v0.2.2/tektii-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "edda0ba133c9d524990c20b9c919830c53c3cc8611aa18c4c8f232e0cc1aa09a"
+      url "https://get.tektii.com/download/tektii-cli-v0.2.3/tektii-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d2724dbd927bba2bed47d581ea57812f2dcd12b948532e83e89acdccb469c62a"
     end
     if Hardware::CPU.intel?
-      url "https://get.tektii.com/download/tektii-cli-v0.2.2/tektii-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f32a5212f0c2b4892824f073fa7f1c6274ffa151f59b67fe0261d9d3d0f8402a"
+      url "https://get.tektii.com/download/tektii-cli-v0.2.3/tektii-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9359fedad625a0a76a8b166feccb7508cc081e33dd8fd040534c01c8e626f929"
     end
   end
   license "MIT"
